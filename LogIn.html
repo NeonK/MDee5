@@ -34,12 +34,6 @@
         </div>
 
        <script>
-        function stopEnterKey(evt) {
-        var evt = (evt) ? evt : ((event) ? event : null);
-        var node = (evt.target) ? evt.target : ((evt.srcElement) ? evt.srcElement : null);
-        if ((evt.keyCode == 13) && (node.type == "text")) { return false; }
-    }
-        if (window.event.keyCode == 13 ) return false;
       function checkPassword(){
        if(document.getElementById('password').value == "hello"){
           location.href = "http://google.com";
